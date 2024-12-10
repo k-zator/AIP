@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cml:molecule xmlns:ssip="http://www-hunter.ch.cam.ac.uk/SSIP" xmlns:cml="http://www.xml-cml.org/schema" cml:id="QMMFVYPAHWMCMS-UHFFFAOYSA-N" ssip:stdInChIKey="QMMFVYPAHWMCMS-UHFFFAOYSA-N">
+  <cml:atomArray>
+    <cml:atom cml:id="a1" cml:elementType="S" cml:hydrogenCount="0" cml:x3="0.037827" cml:y3="1.187737" cml:z3="-0.148511" cml:sybyl="S.3" cml:aipAtomType="S.3"/>
+    <cml:atom cml:id="a2" cml:elementType="C" cml:hydrogenCount="3" cml:x3="-1.392874" cml:y3="0.063279" cml:z3="0.004518" cml:sybyl="C.3" cml:aipAtomType="C.3"/>
+    <cml:atom cml:id="a3" cml:elementType="C" cml:hydrogenCount="3" cml:x3="1.394009" cml:y3="-0.027196" cml:z3="-0.009720" cml:sybyl="C.3" cml:aipAtomType="C.3"/>
+    <cml:atom cml:id="a4" cml:elementType="H" cml:hydrogenCount="0" cml:x3="-2.293997" cml:y3="0.678863" cml:z3="-0.059939" cml:sybyl="H" cml:aipAtomType="H.soft"/>
+    <cml:atom cml:id="a5" cml:elementType="H" cml:hydrogenCount="0" cml:x3="-1.389146" cml:y3="-0.454748" cml:z3="0.968873" cml:sybyl="H" cml:aipAtomType="H.soft"/>
+    <cml:atom cml:id="a6" cml:elementType="H" cml:hydrogenCount="0" cml:x3="-1.409923" cml:y3="-0.671296" cml:z3="-0.806917" cml:sybyl="H" cml:aipAtomType="H.soft"/>
+    <cml:atom cml:id="a7" cml:elementType="H" cml:hydrogenCount="0" cml:x3="2.332468" cml:y3="0.529167" cml:z3="-0.079357" cml:sybyl="H" cml:aipAtomType="H.soft"/>
+    <cml:atom cml:id="a8" cml:elementType="H" cml:hydrogenCount="0" cml:x3="1.364089" cml:y3="-0.546975" cml:z3="0.953233" cml:sybyl="H" cml:aipAtomType="H.soft"/>
+    <cml:atom cml:id="a9" cml:elementType="H" cml:hydrogenCount="0" cml:x3="1.357545" cml:y3="-0.758830" cml:z3="-0.823177" cml:sybyl="H" cml:aipAtomType="H.soft"/>
+  </cml:atomArray>
+  <cml:bondArray>
+    <cml:bond cml:atomRefs2="a1 a2" cml:order="1"/>
+    <cml:bond cml:atomRefs2="a1 a3" cml:order="1"/>
+    <cml:bond cml:atomRefs2="a2 a4" cml:order="1"/>
+    <cml:bond cml:atomRefs2="a2 a5" cml:order="1"/>
+    <cml:bond cml:atomRefs2="a2 a6" cml:order="1"/>
+    <cml:bond cml:atomRefs2="a3 a7" cml:order="1"/>
+    <cml:bond cml:atomRefs2="a3 a8" cml:order="1"/>
+    <cml:bond cml:atomRefs2="a3 a9" cml:order="1"/>
+  </cml:bondArray>
+</cml:molecule>

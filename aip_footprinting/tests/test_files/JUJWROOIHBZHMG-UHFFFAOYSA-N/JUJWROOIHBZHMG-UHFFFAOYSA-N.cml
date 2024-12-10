@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cml:molecule xmlns:ssip="http://www-hunter.ch.cam.ac.uk/SSIP" xmlns:cml="http://www.xml-cml.org/schema" cml:id="JUJWROOIHBZHMG-UHFFFAOYSA-N" ssip:stdInChIKey="JUJWROOIHBZHMG-UHFFFAOYSA-N">
+  <cml:atomArray>
+    <cml:atom cml:id="a1" cml:elementType="C" cml:hydrogenCount="1" cml:x3="-4.971000" cml:y3="-1.688000" cml:z3="1.040000" cml:sybyl="C.ar" cml:aipAtomType="C.ar"/>
+    <cml:atom cml:id="a2" cml:elementType="C" cml:hydrogenCount="1" cml:x3="-5.214000" cml:y3="-2.765000" cml:z3="0.186000" cml:sybyl="C.ar" cml:aipAtomType="C.ar"/>
+    <cml:atom cml:id="a3" cml:elementType="C" cml:hydrogenCount="1" cml:x3="-4.213000" cml:y3="-3.165000" cml:z3="-0.696000" cml:sybyl="C.ar" cml:aipAtomType="C.ar"/>
+    <cml:atom cml:id="a4" cml:elementType="C" cml:hydrogenCount="1" cml:x3="-3.003000" cml:y3="-2.474000" cml:z3="-0.694000" cml:sybyl="C.ar" cml:aipAtomType="C.ar"/>
+    <cml:atom cml:id="a5" cml:elementType="C" cml:hydrogenCount="1" cml:x3="-2.836000" cml:y3="-1.407000" cml:z3="0.190000" cml:sybyl="C.ar" cml:aipAtomType="C.ar"/>
+    <cml:atom cml:id="a6" cml:elementType="N" cml:hydrogenCount="0" cml:x3="-3.801000" cml:y3="-1.010000" cml:z3="1.051000" cml:sybyl="N.ar" cml:aipAtomType="N.ar"/>
+    <cml:atom cml:id="a7" cml:elementType="H" cml:hydrogenCount="0" cml:x3="-5.727000" cml:y3="-1.345000" cml:z3="1.744000" cml:sybyl="H" cml:aipAtomType="H.soft"/>
+    <cml:atom cml:id="a8" cml:elementType="H" cml:hydrogenCount="0" cml:x3="-6.170000" cml:y3="-3.283000" cml:z3="0.210000" cml:sybyl="H" cml:aipAtomType="H.soft"/>
+    <cml:atom cml:id="a9" cml:elementType="H" cml:hydrogenCount="0" cml:x3="-4.373000" cml:y3="-4.000000" cml:z3="-1.373000" cml:sybyl="H" cml:aipAtomType="H.soft"/>
+    <cml:atom cml:id="a10" cml:elementType="H" cml:hydrogenCount="0" cml:x3="-2.202000" cml:y3="-2.761000" cml:z3="-1.370000" cml:sybyl="H" cml:aipAtomType="H.soft"/>
+    <cml:atom cml:id="a11" cml:elementType="H" cml:hydrogenCount="0" cml:x3="-1.906000" cml:y3="-0.843000" cml:z3="0.222000" cml:sybyl="H" cml:aipAtomType="H.soft"/>
+  </cml:atomArray>
+  <cml:bondArray>
+    <cml:bond cml:atomRefs2="a1 a6" cml:order="2"/>
+    <cml:bond cml:atomRefs2="a1 a2" cml:order="1"/>
+    <cml:bond cml:atomRefs2="a1 a7" cml:order="1"/>
+    <cml:bond cml:atomRefs2="a6 a5" cml:order="1"/>
+    <cml:bond cml:atomRefs2="a2 a3" cml:order="2"/>
+    <cml:bond cml:atomRefs2="a2 a8" cml:order="1"/>
+    <cml:bond cml:atomRefs2="a3 a4" cml:order="1"/>
+    <cml:bond cml:atomRefs2="a3 a9" cml:order="1"/>
+    <cml:bond cml:atomRefs2="a4 a5" cml:order="2"/>
+    <cml:bond cml:atomRefs2="a4 a10" cml:order="1"/>
+    <cml:bond cml:atomRefs2="a5 a11" cml:order="1"/>
+  </cml:bondArray>
+</cml:molecule>

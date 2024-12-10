@@ -1,0 +1,19 @@
+<molecule id="nitromethane.pdb">
+ <atomArray>
+  <atom id="a1" elementType="N" x3="0.060000" y3="0.000000" z3="0.001000"/>
+  <atom id="a2" elementType="O" x3="0.669000" y3="-1.055000" z3="-0.000000"/>
+  <atom id="a3" elementType="O" x3="0.669000" y3="1.055000" z3="-0.000000"/>
+  <atom id="a4" elementType="C" x3="-1.405000" y3="0.000000" z3="-0.000000"/>
+  <atom id="a5" elementType="H" x3="-1.770000" y3="-0.003000" z3="1.027000"/>
+  <atom id="a6" elementType="H" x3="-1.768000" y3="0.891000" z3="-0.512000"/>
+  <atom id="a7" elementType="H" x3="-1.768000" y3="-0.889000" z3="-0.517000"/>
+ </atomArray>
+ <bondArray>
+  <bond atomRefs2="a1 a2" order="2"/>
+  <bond atomRefs2="a1 a3" order="1"/>
+  <bond atomRefs2="a1 a4" order="1"/>
+  <bond atomRefs2="a4 a5" order="1"/>
+  <bond atomRefs2="a4 a6" order="1"/>
+  <bond atomRefs2="a4 a7" order="1"/>
+ </bondArray>
+</molecule>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<molecule xmlns:ssip="http://www-hunter.ch.cam.ac.uk/SSIP" xmlns:cml="http://www.xml-cml.org/schema" id="LJXQPZWIHJMPQQ-UHFFFAOYSA-N" ssip:stdInChIKey="LJXQPZWIHJMPQQ-UHFFFAOYSA-N">
+  <atomArray>
+    <atom id="a1" elementType="N" hydrogenCount="2" x3="2.405900" y3="-0.155700" z3="-0.007700"/>
+    <atom id="a2" elementType="C" hydrogenCount="0" x3="0.983200" y3="-0.063600" z3="-0.003200"/>
+    <atom id="a3" elementType="N" hydrogenCount="0" x3="0.379600" y3="1.154700" z3="-0.038900"/>
+    <atom id="a4" elementType="C" hydrogenCount="1" x3="-0.974700" y3="1.263000" z3="-0.035200"/>
+    <atom id="a5" elementType="C" hydrogenCount="1" x3="-1.764100" y3="0.114200" z3="0.005700"/>
+    <atom id="a6" elementType="C" hydrogenCount="1" x3="-1.129100" y3="-1.126800" z3="0.042000"/>
+    <atom id="a7" elementType="N" hydrogenCount="0" x3="0.227800" y3="-1.194000" z3="0.036900"/>
+    <atom id="a8" elementType="H" hydrogenCount="0" x3="2.875400" y3="-1.088000" z3="0.019600"/>
+    <atom id="a9" elementType="H" hydrogenCount="0" x3="2.991400" y3="0.708200" z3="-0.038400"/>
+    <atom id="a10" elementType="H" hydrogenCount="0" x3="-1.437500" y3="2.240300" z3="-0.064000"/>
+    <atom id="a11" elementType="H" hydrogenCount="0" x3="-2.844100" y3="0.184100" z3="0.009100"/>
+    <atom id="a12" elementType="H" hydrogenCount="0" x3="-1.713900" y3="-2.036400" z3="0.074100"/>
+  </atomArray>
+  <bondArray>
+    <bond atomRefs2="a1 a2" order="1"/>
+    <bond atomRefs2="a2 a3" order="2"/>
+    <bond atomRefs2="a3 a4" order="1"/>
+    <bond atomRefs2="a4 a5" order="2"/>
+    <bond atomRefs2="a5 a6" order="1"/>
+    <bond atomRefs2="a6 a7" order="2"/>
+    <bond atomRefs2="a7 a2" order="1"/>
+    <bond atomRefs2="a1 a8" order="1"/>
+    <bond atomRefs2="a1 a9" order="1"/>
+    <bond atomRefs2="a4 a10" order="1"/>
+    <bond atomRefs2="a5 a11" order="1"/>
+    <bond atomRefs2="a6 a12" order="1"/>
+  </bondArray>
+</molecule>

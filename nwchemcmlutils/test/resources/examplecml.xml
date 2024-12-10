@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cml:cml xmlns:cml="http://www.xml-cml.org/schema" xmlns:ssip="http://www-hunter.ch.cam.ac.uk/SSIP">
+<cml:molecule ssip:stdInChIKey="XLYOFNOQVPJJNP-UHFFFAOYSA-N" StuartId="13_01_20121_new" cml:id="XLYOFNOQVPJJNP-UHFFFAOYSA-N">
+ <cml:atomArray>
+  <cml:atom cml:elementType="O" cml:id="a1" cml:x3="-0.198000" cml:y3="0.000000" cml:z3="0.347000"/>
+  <cml:atom cml:elementType="H" cml:id="a2" cml:x3="0.760000" cml:y3="0.000000" cml:z3="0.204000"/>
+  <cml:atom cml:elementType="H" cml:id="a3" cml:x3="-0.561000" cml:y3="0.000000" cml:z3="-0.551000"/>
+ </cml:atomArray>
+ <cml:bondArray>
+  <cml:bond cml:atomRefs2="a1 a2" cml:order="1"/>
+  <cml:bond cml:atomRefs2="a1 a3" cml:order="1"/>
+ </cml:bondArray>
+</cml:molecule>
+<cml:molecule ssip:stdInChIKey="XLYOFNOQVPJJNP-UHFFFAOYSA-N" StuartId="13_01_20121_new" cml:id="XLYOFNOQVPJJNP-UHFFFAOYSA-N">
+ <cml:atomArray>
+  <cml:atom cml:elementType="O" cml:id="a1" cml:x3="-0.198000" cml:y3="0.000000" cml:z3="0.347000"/>
+  <cml:atom cml:elementType="H" cml:id="a2" cml:x3="0.760000" cml:y3="0.000000" cml:z3="0.204000"/>
+  <cml:atom cml:elementType="H" cml:id="a3" cml:x3="-0.561000" cml:y3="0.000000" cml:z3="-0.551000"/>
+ </cml:atomArray>
+ <cml:atomArray>
+  <cml:atom cml:elementType="O" cml:id="a1" cml:x3="-0.198000" cml:y3="0.000000" cml:z3="0.347000"/>
+  <cml:atom cml:elementType="H" cml:id="a2" cml:x3="0.760000" cml:y3="0.000000" cml:z3="0.204000"/>
+  <cml:atom cml:elementType="H" cml:id="a3" cml:x3="-0.561000" cml:y3="0.000000" cml:z3="-0.551000"/>
+ </cml:atomArray>
+ <cml:bondArray>
+  <cml:bond cml:atomRefs2="a1 a2" cml:order="1"/>
+  <cml:bond cml:atomRefs2="a1 a3" cml:order="1"/>
+ </cml:bondArray>
+ <cml:bondArray>
+  <cml:bond cml:atomRefs2="a1 a2" cml:order="1"/>
+  <cml:bond cml:atomRefs2="a1 a3" cml:order="1"/>
+ </cml:bondArray>
+</cml:molecule>
+<cml:molecule ssip:stdInChIKey="XLYOFNOQVPJJNP-UHFFFAOYSA-N" StuartId="13_01_20121_new" cml:id="XLYOFNOQVPJJNP-UHFFFAOYSA-N">
+ <cml:atomArray>
+  <cml:atom/>
+  <cml:atom cml:elementType="H" cml:id="a2" cml:x3="0.760000" cml:y3="0.000000" cml:z3="0.204000"/>
+  <cml:atom cml:elementType="H" cml:id="a3" cml:x3="-0.561000" cml:y3="0.000000" cml:z3="-0.551000"/>
+ </cml:atomArray>
+ <cml:bondArray>
+  <cml:bond cml:atomRefs2="a1 a2" cml:order="1"/>
+  <cml:bond cml:atomRefs2="a1 a3" cml:order="1"/>
+ </cml:bondArray>
+</cml:molecule>
+</cml:cml>

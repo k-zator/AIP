@@ -1,0 +1,8 @@
+{"account": null, "partition": "HUNTER", "walltime": "24:00:00",
+ "processors": 16, "nodes": 1, "conda_version": null,
+ "conda_env": "aip_ziggy", "modules": ["gcc/7.5.0", "mpi/openmpi/gnu7/4.1.0",
+ "hunter_nwchem_anaconda/python3/4.4.0", "nwchem/7.0.2"],
+ "memory_limit": 8,
+ "paths": ["PYTHONHOME=/usr/local/shared/anylinux/anaconda/python3/4.4.0"],
+ "utils_path": "PYTHONPATH=$PYTHONPATH:${CONDA_PREFIX}/lib/python3.11/site-packages",
+ "slurm_type": "ziggy"}

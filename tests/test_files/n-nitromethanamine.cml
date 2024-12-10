@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<molecule xmlns:cml="http://www.xml-cml.org/schema" xmlns:ssip="http://www-hunter.ch.cam.ac.uk/SSIP" id="ARCZSDSOONGBRX-UHFFFAOYSA-N" ssip:stdInChIKey="ARCZSDSOONGBRX-UHFFFAOYSA-N">
+<atomArray>
+ <atom id="a1" elementType="C" x3="-1.10003744273004" y3="0.11940085257319981" z3="0.00734364546745247"/>
+ <atom id="a2" elementType="N" x3="0.16596638606140557" y3="-0.5449115163189183" z3="-0.2692758494359468"/>
+ <atom id="a3" elementType="N" formalCharge="1" x3="1.3267725487008548" y3="0.17475440482533597" z3="-0.040502393619959394"/>
+ <atom id="a4" elementType="O" formalCharge="-1" x3="1.2302025369053053" y3="1.3985350947837705" z3="-0.02572366278175707"/>
+ <atom id="a5" elementType="O" x3="2.3543492539702626" y3="-0.48855782017506616" z3="0.08219207410055457"/>
+ <atom id="a6" elementType="H" x3="-1.8890384063420886" y3="-0.6093775797446687" z3="-0.19198132830932177"/>
+ <atom id="a7" elementType="H" x3="-1.1770404293109122" y3="0.47393368601857117" z3="1.042905296530323"/>
+ <atom id="a8" elementType="H" x3="-1.2179028636406657" y3="0.967992103975408" z3="-0.6670883302995154"/>
+ <atom id="a9" elementType="H" x3="0.3067304163858788" y3="-1.4927682259376323" z3="0.06113054834817066"/>
+</atomArray>
+<bondArray>
+ <bond atomRefs2="a1 a2" order="1"/>
+ <bond atomRefs2="a1 a6" order="1"/>
+ <bond atomRefs2="a1 a7" order="1"/>
+ <bond atomRefs2="a1 a8" order="1"/>
+ <bond atomRefs2="a2 a3" order="1"/>
+ <bond atomRefs2="a2 a9" order="1"/>
+ <bond atomRefs2="a3 a4" order="1"/>
+ <bond atomRefs2="a3 a5" order="2"/>
+</bondArray>  
+</molecule>

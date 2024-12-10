@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<molecule xmlns:cml="http://www.xml-cml.org/schema" xmlns:ssip="http://www-hunter.ch.cam.ac.uk/SSIP" id="XLYOFNOQVPJJNP-UHFFFAOYSA-N" ssip:stdInChIKey="XLYOFNOQVPJJNP-UHFFFAOYSA-N">
+  <atomArray>
+    <atom id="a1" elementType="O" x3="-0.197697" y3="0.000000" z3="0.346463"/>
+    <atom id="a2" elementType="H" x3="0.760559" y3="0.000000" z3="0.204673"/>
+    <atom id="a3" elementType="H" x3="-0.561862" y3="-0.000000" z3="-0.551136"/>
+  </atomArray>
+  <bondArray>
+    <bond atomRefs2="a1 a2" order="1"/>
+    <bond atomRefs2="a1 a3" order="1"/>
+  </bondArray>
+</molecule>

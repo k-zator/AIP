@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cml:molecule xmlns:cml="http://www.xml-cml.org/schema" xmlns:ssip="http://www-hunter.ch.cam.ac.uk/SSIP" cml:id="XLYOFNOQVPJJNP-UHFFFAOYSA-N" ssip:stdInChIKey="XLYOFNOQVPJJNP-UHFFFAOYSA-N">
+  <cml:atomArray>
+    <cml:atom cml:id="a1" cml:elementType="O" cml:x3="-0.197697" cml:y3="0.000000" cml:z3="0.346463"/>
+    <cml:atom cml:id="a2" cml:elementType="H" cml:x3="0.760559" cml:y3="0.000000" cml:z3="0.204673"/>
+    <cml:atom cml:id="a3" cml:elementType="H" cml:x3="-0.561862" cml:y3="-0.000000" cml:z3="-0.551136"/>
+  </cml:atomArray>
+  <cml:bondArray>
+    <cml:bond cml:atomRefs2="a1 a2" cml:order="1"/>
+    <cml:bond cml:atomRefs2="a1 a3" cml:order="1"/>
+  </cml:bondArray>
+</cml:molecule>

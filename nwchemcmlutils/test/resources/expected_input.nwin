@@ -1,0 +1,72 @@
+memory 8 gb
+scratch_dir /tmp
+start XLYOFNOQVPJJNP-UHFFFAOYSA-N
+title "calculation"
+charge 0
+# DFT module
+# http://www.nwchem-sw.org/index.php/Density_Functional_Theory_for_Molecules
+dft
+   # Calculate all integrals "on-the-fly"
+   direct
+   
+   #Exchange functional- B3LYP is default
+   # B3LYP Combined Exchange and Correlation Functional
+   xc b3lyp
+
+   # Do not print the MO vector coefficients; just too much data.
+   noprint "final vectors analysis"
+
+   # Set the energy convergence to be at 1e-08, SCF=Tight in Gaussian
+   convergence energy 1e-08
+
+   #now we increase the number of iterations in case there is a bad initial guess
+   iterations 100
+
+   # Multiplicity
+   mult 1
+
+end
+# Module for the geometry optimisation
+# http://www.nwchem-sw.org/index.php/Geometry_Optimization#Geometry_Optimization_with_DRIVER
+driver
+  # Maximum number of steps allowed for the geometry optimisation
+  maxiter 600
+end
+python
+  import logging
+  import copy
+  import numpy as np
+  import nwchem
+  import nwgeom
+  import nwchemcmlutils.nwUtils.rtdb_util as rtdb_util
+  import nwchemcmlutils.nwUtils.geom_opt_cml as geom_opt_cml
+  import nwchemcmlutils.nwUtils.property_calc_util as property_calc_util
+  import nwchemcmlutils.nwUtils.cube_file_merger as cube_file_merger
+
+  logging.basicConfig()
+  LOGGER = logging.getLogger(__name__)
+  LOGGER.setLevel(logging.INFO)
+  molecule_cml_string = '''<cml:molecule xmlns:cml="http://www.xml-cml.org/schema" xmlns:ssip="http://www-hunter.ch.cam.ac.uk/SSIP" ssip:stdInChIKey="XLYOFNOQVPJJNP-UHFFFAOYSA-N" ssip:StuartId="13_01_20121_new"
+  cml:id="XLYOFNOQVPJJNP-UHFFFAOYSA-N">    <cml:atomArray>     <cml:atom cml:elementType="O" cml:id="a1" cml:x3="-0.198000" cml:y3="0.000000" cml:z3="0.347000"/>     <cml:atom cml:elementType="H"
+  cml:id="a2" cml:x3="0.760000" cml:y3="0.000000" cml:z3="0.204000"/>     <cml:atom cml:elementType="H" cml:id="a3" cml:x3="-0.561000" cml:y3="0.000000" cml:z3="-0.551000"/>    </cml:atomArray>
+  <cml:bondArray>     <cml:bond cml:atomRefs2="a1 a2" cml:order="1"/>     <cml:bond cml:atomRefs2="a1 a3" cml:order="1"/>    </cml:bondArray>   </cml:molecule>'''
+  method_type = 'dft'
+  tag_name = 'driverinitial'
+  geom_name = 'geometry'
+  filename = 'XLYOFNOQVPJJNP-UHFFFAOYSA-N.cml'
+  geom_opt = True
+  basis_functions = None
+
+  if basis_functions:
+      geom_calc_out = geom_opt_cml.readCMLOptAndWriteOutputToFile(molecule_cml_string,
+                                                                  method_type, tag_name,
+                                                                  geom_name, filename,
+                                                                  geom_opt,
+                                                                  **basis_functions)
+  else:
+      geom_calc_out = geom_opt_cml.readCMLOptAndWriteOutputToFile(molecule_cml_string,
+                                                                  method_type, tag_name,
+                                                                  geom_name, filename,
+                                                                  geom_opt)
+end
+task python

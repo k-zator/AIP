@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<molecule xmlns:ssip="http://www-hunter.ch.cam.ac.uk/SSIP" xmlns:cml="http://www.xml-cml.org/schema" id="DPOZWTRVXPUOQW-UHFFFAOYSA-N" ssip:stdInChIKey="DPOZWTRVXPUOQW-UHFFFAOYSA-N">
+  <atomArray>
+    <atom id="a1" elementType="F" hydrogenCount="0" x3="0.789900" y3="-1.195900" z3="1.038000"/>
+    <atom id="a2" elementType="C" hydrogenCount="0" x3="0.699500" y3="-0.250500" z3="0.032300"/>
+    <atom id="a3" elementType="Cl" hydrogenCount="0" x3="1.020300" y3="-0.838300" z3="-1.178100"/>
+    <atom id="a4" elementType="I" hydrogenCount="0" x3="1.966600" y3="1.169800" z3="0.393300"/>
+    <atom id="a5" elementType="C" hydrogenCount="2" x3="-0.714600" y3="0.318100" z3="-0.022900"/>
+    <atom id="a6" elementType="Br" hydrogenCount="0" x3="-2.010400" y3="-1.080100" z3="-0.383300"/>
+    <atom id="a7" elementType="H" hydrogenCount="0" x3="-0.967900" y3="0.795300" z3="0.947400"/>
+    <atom id="a8" elementType="H" hydrogenCount="0" x3="-0.783500" y3="1.081600" z3="-0.826600"/>
+  </atomArray>
+  <bondArray>
+    <bond atomRefs2="a1 a2" order="1"/>
+    <bond atomRefs2="a2 a3" order="1"/>
+    <bond atomRefs2="a2 a4" order="1"/>
+    <bond atomRefs2="a2 a5" order="1"/>
+    <bond atomRefs2="a5 a6" order="1"/>
+    <bond atomRefs2="a5 a7" order="1"/>
+    <bond atomRefs2="a5 a8" order="1"/>
+  </bondArray>
+</molecule>

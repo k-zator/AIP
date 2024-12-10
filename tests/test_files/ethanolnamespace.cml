@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cml:molecule xmlns:ssip="http://www-hunter.ch.cam.ac.uk/SSIP" xmlns:cml="http://www.xml-cml.org/schema" cml:id="LFQSCWFLJHTTHZ-UHFFFAOYSA-N" ssip:stdInChIKey="LFQSCWFLJHTTHZ-UHFFFAOYSA-N">
+  <cml:atomArray>
+    <cml:atom cml:id="a1" cml:elementType="C" cml:hydrogenCount="3" cml:x3="-0.888300" cml:y3="0.167000" cml:z3="-0.027300"/>
+    <cml:atom cml:id="a2" cml:elementType="C" cml:hydrogenCount="2" cml:x3="0.465800" cml:y3="-0.511600" cml:z3="-0.036800"/>
+    <cml:atom cml:id="a3" cml:elementType="O" cml:hydrogenCount="1" cml:x3="1.431100" cml:y3="0.322900" cml:z3="0.586700"/>
+    <cml:atom cml:id="a4" cml:elementType="H" cml:hydrogenCount="0" cml:x3="-0.848700" cml:y3="1.117500" cml:z3="-0.569500"/>
+    <cml:atom cml:id="a5" cml:elementType="H" cml:hydrogenCount="0" cml:x3="-1.647100" cml:y3="-0.470400" cml:z3="-0.489600"/>
+    <cml:atom cml:id="a6" cml:elementType="H" cml:hydrogenCount="0" cml:x3="-1.196400" cml:y3="0.397800" cml:z3="0.997700"/>
+    <cml:atom cml:id="a7" cml:elementType="H" cml:hydrogenCount="0" cml:x3="0.792000" cml:y3="-0.722400" cml:z3="-1.059700"/>
+    <cml:atom cml:id="a8" cml:elementType="H" cml:hydrogenCount="0" cml:x3="0.424600" cml:y3="-1.455900" cml:z3="0.513800"/>
+    <cml:atom cml:id="a9" cml:elementType="H" cml:hydrogenCount="0" cml:x3="1.467100" cml:y3="1.155000" cml:z3="0.084800"/>
+  </cml:atomArray>
+  <cml:bondArray>
+    <cml:bond cml:atomRefs2="a1 a2" cml:order="1"/>
+    <cml:bond cml:atomRefs2="a2 a3" cml:order="1"/>
+    <cml:bond cml:atomRefs2="a1 a4" cml:order="1"/>
+    <cml:bond cml:atomRefs2="a1 a5" cml:order="1"/>
+    <cml:bond cml:atomRefs2="a1 a6" cml:order="1"/>
+    <cml:bond cml:atomRefs2="a2 a7" cml:order="1"/>
+    <cml:bond cml:atomRefs2="a2 a8" cml:order="1"/>
+    <cml:bond cml:atomRefs2="a3 a9" cml:order="1"/>
+  </cml:bondArray>
+</cml:molecule>

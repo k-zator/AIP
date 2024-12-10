@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cml:molecule xmlns:ssip="http://www-hunter.ch.cam.ac.uk/SSIP" xmlns:cml="http://www.xml-cml.org/schema" cml:id="XLYOFNOQVPJJNP-UHFFFAOYSA-N" ssip:stdInChIKey="XLYOFNOQVPJJNP-UHFFFAOYSA-N">
+  <cml:atomArray>
+    <cml:atom cml:id="a1" cml:elementType="O" cml:hydrogenCount="2" cml:x3="-0.520000" cml:y3="-0.059000" cml:z3="0.361000" cml:sybyl="O.3" cml:aipAtomType="O.3.water"/>
+    <cml:atom cml:id="a2" cml:elementType="H" cml:hydrogenCount="0" cml:x3="0.285000" cml:y3="-0.471000" cml:z3="-0.265000" cml:sybyl="H" cml:aipAtomType="H.O.water"/>
+    <cml:atom cml:id="a3" cml:elementType="H" cml:hydrogenCount="0" cml:x3="-0.174000" cml:y3="-0.099000" cml:z3="1.405000" cml:sybyl="H" cml:aipAtomType="H.O.water"/>
+  </cml:atomArray>
+  <cml:bondArray>
+    <cml:bond cml:atomRefs2="a1 a2" cml:order="1"/>
+    <cml:bond cml:atomRefs2="a1 a3" cml:order="1"/>
+  </cml:bondArray>
+</cml:molecule>

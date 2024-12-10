@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ssip:SSIPMolecule xmlns:ssip="http://www-hunter.ch.cam.ac.uk/SSIP" xmlns:cml="http://www.xml-cml.org/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ssip:ssipSoftwareVersion="0.0.0-newssip" ssip:parameterVersion="3.0.0" xsi:schemaLocation="http://www.xml-cml.org/schema http://www-hunter.ch.cam.ac.uk/schema/cmlschema_KMC.xsd http://www-hunter.ch.cam.ac.uk/SSIP http://www-hunter.ch.cam.ac.uk/schema/SSIP_KMC.xsd">
+  <cml:molecule cml:id="UBQKCCHYAOITMY-UHFFFAOYSA-N" ssip:stdInChIKey="UBQKCCHYAOITMY-UHFFFAOYSA-N">
+    <cml:atomArray>
+      <cml:atom cml:id="a1" cml:elementType="C" cml:hydrogenCount="1" cml:x3="0.464686" cml:y3="-1.311437" cml:z3="-0.014549" cml:sybyl="C.ar" cml:aipAtomType="C.ar"/>
+      <cml:atom cml:id="a2" cml:elementType="C" cml:hydrogenCount="1" cml:x3="1.363944" cml:y3="-0.285463" cml:z3="0.054948" cml:sybyl="C.ar" cml:aipAtomType="C.ar"/>
+    </cml:atomArray>
+    <cml:bondArray>
+      <cml:bond cml:atomRefs2="a1 a2" cml:order="2"/>
+    </cml:bondArray>
+  </cml:molecule>
+  <ssip:SurfaceInformation>
+    <ssip:Surfaces>
+      <ssip:Surface>
+        <ssip:TotalSurfaceArea ssip:unit="Å^2">117.81809779242694</ssip:TotalSurfaceArea>
+        <ssip:PositiveSurfaceArea ssip:unit="Å^2">71.32198658919324</ssip:PositiveSurfaceArea>
+        <ssip:NegativeSurfaceArea ssip:unit="Å^2">46.496111203233696</ssip:NegativeSurfaceArea>
+        <ssip:PositivePolarSurfaceArea ssip:unit="Å^2">14.288192086579183</ssip:PositivePolarSurfaceArea>
+        <ssip:NegativePolarSurfaceArea ssip:unit="Å^2">14.480816404954956</ssip:NegativePolarSurfaceArea>
+        <ssip:TotalNonPolarSurfaceArea ssip:unit="Å^2">89.0490893008928</ssip:TotalNonPolarSurfaceArea>
+        <ssip:PositiveNonPolarSurfaceArea ssip:unit="Å^2">57.03379450261406</ssip:PositiveNonPolarSurfaceArea>
+        <ssip:NegativeNonPolarSurfaceArea ssip:unit="Å^2">32.01529479827874</ssip:NegativeNonPolarSurfaceArea>
+        <ssip:NumberOFMEPSPoints>20796</ssip:NumberOFMEPSPoints>
+        <ssip:ElectrostaticPotentialMax ssip:unit="hartree">0.086344</ssip:ElectrostaticPotentialMax>
+        <ssip:ElectrostaticPotentialMin ssip:unit="hartree">-0.079899</ssip:ElectrostaticPotentialMin>
+      </ssip:Surface>
+    </ssip:Surfaces>
+  </ssip:SurfaceInformation>
+  <ssip:SSIPs>
+    <ssip:SSIP ssip:value="-1.634293775662" ssip:nearestAtomID="a1" ssip:aipAtomType="C.ar" cml:x3="0.695603695677" cml:y3="-2.028442334754" cml:z3="-1.6247596603040002" ssip:MEPvalue="-0.018758" ssip:isosurface="0.002" ssip:ssipAreaFraction="0.5"/>
+  </ssip:SSIPs>
+</ssip:SSIPMolecule>
+
