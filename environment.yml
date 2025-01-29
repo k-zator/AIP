@@ -1,4 +1,4 @@
-name: newssip
+name: aip
 channels:
   - anaconda
   - rdkit

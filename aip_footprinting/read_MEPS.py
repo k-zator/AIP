@@ -53,8 +53,10 @@ class MEPS():
         open_file = open(self._cube_file, "r")
         read_file = open_file.readlines()
         if len(read_file[0].split(" ")) > 4:
-            self.vdw_volume = float(read_file[0].split(" ")[
-                4]) * np.power(0.529177, 3)
+            if type(read_file[0].split(" ")[4]) == float:
+                self.vdw_volume = float(read_file[0].split(" ")[4]) * np.power(0.529177, 3)
+            else:
+                self.vdw_volume = 0
         else:
             self.vdw_volume = 0
         data = pd.DataFrame([[float(x) for x in e.split()] for e in read_file[6:]],
