@@ -1,6 +1,10 @@
 
 # AIP
 
+[![CI](https://github.com/k-zator/AIP/actions/workflows/tests.yml/badge.svg)](https://github.com/k-zator/AIP/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/k-zator/AIP/branch/master/graph/badge.svg)](https://codecov.io/gh/k-zator/AIP)
+
+
 Module for calculating AIP for neutral organic molecules to be used to examine non-covalent interactions (as AIP-AIP pairing) as well as examinations of solvation and co-crystal prediction.
 The relevant paper: https://doi.org/10.1039/D3SC05690B
 
@@ -47,7 +51,7 @@ Any queries please contact Katarzyna Zator, kz265.
 
 License
 
-&copy; Katarzyna Zator, Maria Chiara Storer,  Christopher Hunter at the University of Cambridge
+&copy; Katarzyna Zator, Maria Chiara Storer, Christopher Hunter at the University of Cambridge
 This is released under an AGPLv3 license for academic use.
 
 
