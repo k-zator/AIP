@@ -1,7 +1,7 @@
 
 # AIP
 
-[![CI](https://github.com/k-zator/AIP/actions/workflows/tests.yml/badge.svg)](https://github.com/k-zator/AIP/actions/workflows/ci.yml)
+[![CI](https://github.com/k-zator/AIP/actions/workflows/tests.yml/badge.svg)](https://github.com/k-zator/AIP/actions/workflows/tests.yml)
 [![codecov](https://codecov.io/gh/k-zator/AIP/branch/master/graph/badge.svg)](https://codecov.io/gh/k-zator/AIP)
 
 
